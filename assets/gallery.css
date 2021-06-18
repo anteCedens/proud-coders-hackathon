@@ -1,0 +1,53 @@
+/* Column count of 1 for small screen sizes */
+#masonry-container {
+  column-count: 1;
+  column-gap: 1rem;
+}
+
+.masonry-item {
+  width: 100%;
+  margin: 0 0 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.masonry-item::after {
+  content: '';
+  position: absolute;
+  height: 5rem;
+  width: 100%;
+  left: 0;
+  bottom: -5rem;
+  background-color: rgba(0, 0, 0, 0.9);
+  transition: bottom 500ms ease-in-out;
+}
+
+.masonry-item:hover::after {
+  bottom: 0;
+}
+
+.masonry-image {
+  width: 100%;
+}
+
+/* Column count of 2 for medium screen sizes */
+@media (min-width: 768px) {
+  #masonry-container {
+    column-count: 2;
+  }
+}
+
+/* Column count of 3 for large screen sizes */
+@media (min-width: 992px) {
+  #masonry-container {
+    column-count: 3;
+  }
+}
+
+/* Column count of 4 for x-large screen sizes and above */
+@media (min-width: 1200px){
+  #masonry-container {
+    column-count: 4;
+  }
+}
+
