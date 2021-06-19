@@ -1,3 +1,5 @@
+/* Masonry Styling Start */
+
 /* Column count of 1 for small screen sizes */
 #masonry-container {
   column-count: 1;
@@ -9,6 +11,24 @@
   margin: 0 0 1rem;
   position: relative;
   overflow: hidden;
+}
+
+.masonry-item::before {
+  content: attr(data-description);
+  position: absolute;
+  width: 80%;
+  left: 50%;
+  bottom: -5rem;
+  color: #fff;
+  transform: translateX(-50%);
+  z-index: 2;
+  opacity: 0;
+  transition: bottom 500ms ease-in-out, opacity 1s ease-in-out;
+}
+
+.masonry-item:hover::before {
+  opacity: 1;
+  bottom: 1rem;
 }
 
 .masonry-item::after {
@@ -50,4 +70,6 @@
     column-count: 4;
   }
 }
+
+/* Masonry Styling End */
 
