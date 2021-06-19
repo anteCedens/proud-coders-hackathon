@@ -1,59 +1,60 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Solace in Colour
 
-Welcome brandonmongo,
+Solace in Colour is an online platform that positvely promotes art, music and literature created by people who are LGBTQ+. The aim of this site is to produce an inclusive and safe environment that encourages healthy, meaningful dialogue. We want this site to showcase the talent and ability of artists who are LGBTQ+. This site has been created with inclusion and community at the heart of it, so it is open to everyone who wants to exlpore LGBTQ+ artists.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+This site was developed as part of Code Institute's first Pride Hackathon. 
 
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+View deployed site here <insert link>
 
 ---
 
-Happy coding!
+## Project Goals
+
+* To create a website where users can find and discuss music, art and literature created by people who are LGBTQ+
+* To promote positive and inclusive discussion surrounding art forms produced by the LGBTQ+ community
+* To provide a means of engagement for current and prospective users
+
+## User Stories
+
+* As a user I want to find music, art and literature created by people who are LGBTQ+.
+* As a user I want to to sign-up to chat rooms to discuss, explore and learn with other people about different art produced by LGBTQ+ people.
+* As a user I want to see an array of images and content showcasing different LGBTQ+ artists.
+
+## UX Design
+
+### Strategy
+Solace in Colour promotes art produced by people who are LGBTQ+ and encourages users to explore and discuss the art.
+The site allows users to look at different art types showcased and sign-up to chat rooms to discuss them.
+
+### Scope
+This site contains the following sections:
+* Home page- 
+* About page- content about the site
+* Gallery page- contains media content displaying different art forms, including image gallery and carousel
+* Chat room page- users can log in to different chat rooms
+* Sign-up/ Log in form- 
+
+### Structure
+
+**Insert content**
+
+### Skeleton
+The initial wireframes were produced using [Balsamiq](https://balsamiq.com/).
+
+The wireframes can be viewed <insert wireframes>.
+
+### Surface
+* Colour- **insert content**
+* Typography- **insert content**
+* 
+
+## Technologies
+
+### Languages
+* HTML
+* CSS
+* JavaScript
+
+### Frameworks/ Libraries
+* [Balsamiq](https://balsamiq.com/) used for the wireframes.
+* [Bootstrap](https://getbootstrap.com/) used for styling and responsiveness.
