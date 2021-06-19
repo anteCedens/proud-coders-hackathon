@@ -52,8 +52,12 @@
 
 /* Chat Rooms */
 
-.art-room {
-    
+.chat-rooms {
+  max-width: 25%;
+}
+
+.cards-inline {
+  display: inline;
 }
 
 /* Footer */
