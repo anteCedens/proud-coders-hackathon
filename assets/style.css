@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
 body {
     background-color: black;
+    font-family: 'Open Sans Condensed';
 }
 
 .banner {
@@ -45,9 +48,6 @@ body {
 
 /* Chat Rooms */
 
-.art-room {
-    
-}
 
 /* Footer */
 
@@ -122,3 +122,27 @@ footer i {
     }
   }
   /* ------- */
+
+/*about page*/
+
+ #about-header {
+     text-align: center;
+     padding: 30px;
+     text-transform: uppercase;
+ }
+
+ #mission-statement {
+     text-align: center;
+     padding: 25px;
+ }
+
+ #mission-statement h2 {
+     text-transform: uppercase;
+ }
+
+ .about-content {
+     padding: 50px;
+
+ }
+
+ 
