@@ -41,7 +41,7 @@ This site contains the following sections:
 ### Skeleton
 The initial wireframes were produced using [Balsamiq](https://balsamiq.com/).
 
-The wireframes can be viewed <insert wireframes>.
+The wireframes can be viewed [here](https://github.com/anteCedens/proud-coders-hackathon/blob/master/assets/images/wireframes/wireframes.png).
 
 ### Surface
 * Colour- **insert content**
