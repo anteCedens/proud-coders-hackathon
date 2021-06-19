@@ -1,3 +1,9 @@
+
+body {
+    background-color: black;
+}
+
+
 .banner {
     width: 100%;
     height: 70px;
@@ -52,6 +58,7 @@
 
 /* Chat Rooms */
 
+
 .chat-rooms {
   max-width: 25%;
 }
@@ -59,6 +66,7 @@
 .cards-inline {
   display: inline;
 }
+
 
 /* Footer */
 
@@ -133,3 +141,27 @@ footer i {
     }
   }
   /* ------- */
+
+/*about page*/
+
+ #about-header {
+     text-align: center;
+     padding: 30px;
+     text-transform: uppercase;
+ }
+
+ #mission-statement {
+     text-align: center;
+     padding: 25px;
+ }
+
+ #mission-statement h2 {
+     text-transform: uppercase;
+ }
+
+ .about-content {
+     padding: 50px;
+
+ }
+
+ 
