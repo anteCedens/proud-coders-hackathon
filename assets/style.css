@@ -129,7 +129,7 @@ footer .social-networks {
  /* Code Credit https://codepen.io/FelixRilling/pen/qzfoc for Neon Glow */
  footer i,
  .pride-link:hover {
-    color: #fff;
+    color: #fff!important;
     -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
     -moz-animation: neon1 1.5s ease-in-out infinite alternate;
     animation: neon1 1.5s ease-in-out infinite alternate;
