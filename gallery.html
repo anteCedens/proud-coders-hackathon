@@ -1,68 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
   <link rel="stylesheet" href="assets/style.css">
   <link rel="stylesheet" href="assets/gallery.css">
+  <!-- If adding script.js in the head, remember to set 'async'-->
+  <script async src="assets/js/script.js"></script>
   <title>Gallery</title>
 </head>
 
 <body>
-      <section class="container" id="masonry-container">
-        <div class="masonry-item" data-description='The Dreamlanders cast during the filming of "Cry-Baby".'>
-          <img class="masonry-image" src="assets/images/gallery/dreamlanders-cry-baby-cast.jpg" alt="">
-        </div>
-        <div class="masonry-item" data-description='"How To Become A Virgin" by writer & actor, Quentin Crisp.'>
-          <img class="masonry-image" src="assets/images/gallery/quentin-crisp-how-to-become.jpg" alt="">
-        </div>
-        <div class="masonry-item" data-description='"Pier Kids". A documentary by the filmmaker, Elegance Bratton.'>
-          <img class="masonry-image" src="assets/images/gallery/elegance-bratton-pier-kids.jpg" alt="">
-        </div>
-        <div class="masonry-item" data-description='The novel "The Black Flamingo" by the poet, Dean Atta.'>
-          <img class="masonry-image" src="assets/images/gallery/dean-atta-black-flamingo.jpg" alt="">
-        </div>
-        <div class="masonry-item" data-description='The novelist Rosie Garland, performing at the Fringe 2018.'>
-          <img class="masonry-image" src="assets/images/gallery/rosie-garland-fringe-2018.jpg" alt="">
-        </div>
-        <div class="masonry-item" data-description='"What The T?", a practical trans guide by writer Juno Dawson.'>
-          <img class="masonry-image" src="assets/images/gallery/juno-dawson-what-the-t.jpg" alt="">
-        </div>
-        <div class="masonry-item" data-description='"Selah", a poetry collection by poet Keith Jarrett.'>
-          <img class="masonry-image" src="assets/images/gallery/keith-jarrett-selah.jpg" alt="">
-        </div>
-        <div class="masonry-item" data-description='Quentin Crisp acting as Elizabeth I in the film, "Orlando".'>
-          <img class="masonry-image" src="assets/images/gallery/quentin-crisp-orlando.jpg" alt="">
-        </div>
-        <div class="masonry-item" data-description=''>
-          <img class="masonry-image" src="assets/images/gallery/hedwig-and-the-angry-inch.jpg" alt="">
-        </div>
-        <div class="masonry-item">
-          <img class="masonry-image" src="assets/images/gallery/dreamlanders-desperate-living-cast.jpg" alt="">
-        </div>
-        <div class="masonry-item">
-          <img class="masonry-image" src="assets/images/gallery/juliet-jacques-trans-a-memoir.jpg" alt="">
-        </div>
-        <div class="masonry-item">
-          <img class="masonry-image" src="assets/images/gallery/levan-akin-and-then-we-danced.jpg" alt="">
-        </div>
-        <div class="masonry-item">
-          <img class="masonry-image" src="assets/images/gallery/juno-dawson-reading-gender-games-christchurch.jpg" alt="">
-        </div>
-        <div class="masonry-item">
-          <img class="masonry-image" src="assets/images/gallery/yen-tan-1985.jpg" alt="">
-        </div>
-        <div class="masonry-item">
-          <img class="masonry-image" src="assets/images/gallery/kirsty-logan-rental-heart.jpg" alt="">
-        </div>
-        <div class="masonry-item">
-          <img class="masonry-image" src="assets/images/gallery/rosie-garland-the-palace-of-curiosities.jpg" alt="">
-        </div>
+  <button class="button" onclick="topFunction()" id="myBtn">
+    <a>
+      <i class="fas fa-arrow-up"></i>
+    </a>
+  </button>
+  <section class="container" id="masonry-container">
+    <div class="masonry-item" data-description='The Dreamlanders cast during the filming of "Cry-Baby".'>
+      <img class="masonry-image" src="assets/images/gallery/dreamlanders-cry-baby-cast.jpg" alt="">
+    </div>
+    <div class="masonry-item" data-description='"How To Become A Virgin" by writer & actor, Quentin Crisp.'>
+      <img class="masonry-image" src="assets/images/gallery/quentin-crisp-how-to-become.jpg" alt="">
+    </div>
+    <div class="masonry-item" data-description='"Pier Kids". A documentary by the filmmaker, Elegance Bratton.'>
+      <img class="masonry-image" src="assets/images/gallery/elegance-bratton-pier-kids.jpg" alt="">
+    </div>
+    <div class="masonry-item" data-description='The novel "The Black Flamingo" by the poet, Dean Atta.'>
+      <img class="masonry-image" src="assets/images/gallery/dean-atta-black-flamingo.jpg" alt="">
+    </div>
+    <div class="masonry-item" data-description='The novelist Rosie Garland, performing at the Fringe 2018.'>
+      <img class="masonry-image" src="assets/images/gallery/rosie-garland-fringe-2018.jpg" alt="">
+    </div>
+    <div class="masonry-item" data-description='"What The T?", a practical trans guide by writer Juno Dawson.'>
+      <img class="masonry-image" src="assets/images/gallery/juno-dawson-what-the-t.jpg" alt="">
+    </div>
+    <div class="masonry-item" data-description='"Selah", a poetry collection by poet Keith Jarrett.'>
+      <img class="masonry-image" src="assets/images/gallery/keith-jarrett-selah.jpg" alt="">
+    </div>
+    <div class="masonry-item" data-description='Quentin Crisp acting as Elizabeth I in the film, "Orlando".'>
+      <img class="masonry-image" src="assets/images/gallery/quentin-crisp-orlando.jpg" alt="">
+    </div>
+    <div class="masonry-item" data-description=''>
+      <img class="masonry-image" src="assets/images/gallery/hedwig-and-the-angry-inch.jpg" alt="">
+    </div>
+    <div class="masonry-item">
+      <img class="masonry-image" src="assets/images/gallery/dreamlanders-desperate-living-cast.jpg" alt="">
+    </div>
+    <div class="masonry-item">
+      <img class="masonry-image" src="assets/images/gallery/juliet-jacques-trans-a-memoir.jpg" alt="">
+    </div>
+    <div class="masonry-item">
+      <img class="masonry-image" src="assets/images/gallery/levan-akin-and-then-we-danced.jpg" alt="">
+    </div>
+    <div class="masonry-item">
+      <img class="masonry-image" src="assets/images/gallery/juno-dawson-reading-gender-games-christchurch.jpg" alt="">
+    </div>
+    <div class="masonry-item">
+      <img class="masonry-image" src="assets/images/gallery/yen-tan-1985.jpg" alt="">
+    </div>
+    <div class="masonry-item">
+      <img class="masonry-image" src="assets/images/gallery/kirsty-logan-rental-heart.jpg" alt="">
+    </div>
+    <div class="masonry-item">
+      <img class="masonry-image" src="assets/images/gallery/rosie-garland-the-palace-of-curiosities.jpg" alt="">
+    </div>
 
-      </section>
+  </section>
 </body>
 
 </html>
