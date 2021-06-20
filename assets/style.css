@@ -187,6 +187,7 @@ footer .social-networks {
   }
 }
 
+
 /*About Page*/
 
 /*Code modified from W3 schools*/
@@ -217,15 +218,6 @@ div.transbox p {
     
 }
 
-
-
- 
-@media only screen and (max-width: 425px) {
-.background-image {
-background-image: url(assets/images/about-background-mobile.jpg) center no-repeat;
-    }
-}
-
  #about-header {
      text-align: center;
      padding: 30px;
@@ -244,6 +236,26 @@ background-image: url(assets/images/about-background-mobile.jpg) center no-repea
      text-transform: uppercase;
  }
 
+@media only screen and (max-width: 425px ) {
+  #mission-statement {
+    text-align: center;
+     padding: 25px;
+     margin: 0 25px;
+    box-shadow: 0 20px 22px 0 rgb(247 89 83 / 20%), 0 15px 35px 0 rgb(247 89 83 / 19%);
+    border-radius: 7px;
+  }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px ) {
+  #mission-statement {
+    text-align: center;
+     padding: 25px;
+     margin: 0 100px;
+    box-shadow: 0 20px 22px 0 rgb(247 89 83 / 20%), 0 15px 35px 0 rgb(247 89 83 / 19%);
+    border-radius: 7px;
+  }
+}
+
  .about-content {
      padding: 50px;
 
@@ -252,6 +264,10 @@ background-image: url(assets/images/about-background-mobile.jpg) center no-repea
  h1, h2 {
      font-family: 'Gloria Hallelujah', cursive ;
  }
+
+  ul a {
+    color: #9c0d48f0;
+    text-decoration: underline;
 
  /* Masonry Styling Start */
 
