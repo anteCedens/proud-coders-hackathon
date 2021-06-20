@@ -21,3 +21,25 @@ function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
+
+
+// sign up form
+
+$(function() {
+ // When the user clicks the button, open the sign up form
+    $(".pride-btn").click(function(){
+        $("#pride-signup").show();
+    });
+// When the user clicks on the close button the sign up form, close it
+    $("#close-btn").click(function(){
+        $("#pride-signup").hide();
+    });
+})
+
+
+// When the user clicks anywhere outside of the sign up form, close it (no working now)
+window.onclick = function(event) {
+  if (event.target == this.signup) {
+    this.signup.style.display = "none";
+  }
+}
