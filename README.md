@@ -71,7 +71,10 @@ The wireframes can be viewed <insert wireframes>.
 
 ### Content
 
-- The __About__ page was sourced from []().
+- The __About__ page was created by the developer for the purpose of this project. It has been influenced by:
+    * [QUEER|ART](https://www.queer-art.org/)
+    * [Queer Book Box](https://www.queerbookbox.com/)
+- Website descriptions in __About__ page have been used from the respective websites. 
 
 ### Media
 The photos used in this site were obtained from [Pexels](https://www.pexels.com/search/ice%20cream/?orientation=portrait) and [Unsplash](https://unsplash.com/). Both of these sites are completely copyright-free. Below are all the photographers whose work are featured in this website:
@@ -87,6 +90,7 @@ The photos used in this site were obtained from [Pexels](https://www.pexels.com/
     - [Tyler Nix](https://www.pexels.com/photo/cappuccino-in-white-ceramic-cup-on-white-ceramic-saucer-2396220/)
     - [Pexels](https://www.pexels.com/photo/landmark-lights-building-architecture-63328/)
     - [Sharon McCutcheon](https://www.pexels.com/photo/close-up-photo-of-rainbow-colors-4219312/)
+    - [Isi Parente](https://unsplash.com/photos/TN8dZ893ue0)
 
 ### Code
 
