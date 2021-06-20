@@ -144,6 +144,23 @@ footer i {
 
 /*about page*/
 
+div.transbox {
+  background-color: #ffffff;
+  opacity: 0.7;
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+ 
+@media only screen and (max-width: 425px) {
+.background-image {
+background-image: url(assets/images/about-background-mobile.jpg) center no-repeat;
+    }
+}
+
  #about-header {
      text-align: center;
      padding: 30px;
@@ -163,5 +180,3 @@ footer i {
      padding: 50px;
 
  }
-
- 
