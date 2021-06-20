@@ -58,15 +58,45 @@ body {
 
 /* Chat Rooms */
 
-
-.chat-rooms {
-  max-width: 25%;
+#chat-rooms{
+  background-color: black;
+  width: 100%;
 }
 
-.cards-inline {
-  display: inline;
+#chat-rooms div {
+  width: 20%;
+  height: 300px;
+  float: left;
+  padding: 30px 0 0 10px;
+  text-align: center;
+  border: 2px solid white;
+  box-sizing: border-box;
 }
 
+#chat-rooms div.art-room {
+  /* Photo by <a href="https://unsplash.com/@tabithabrooke?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">tabitha turner</a> on <a href="https://unsplash.com/s/photos/art-gallery?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
+  background: url("/assets/images/art-card.jpg") no-repeat center center;
+}
+
+#chat-rooms div.music-room {
+  /* Photo by <a href="https://unsplash.com/@akramhuseyn?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Akram Huseyn</a> on <a href="https://unsplash.com/s/photos/art-gallery?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
+  background: url("/assets/images/music-card.jpg") no-repeat center center;
+}
+
+#chat-rooms div.literature-room {
+  /* Photo by <a href="https://unsplash.com/@prateekkatyal?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Prateek Katyal</a> on <a href="https://unsplash.com/s/photos/literature?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
+  background: url("/assets/images/literature-card.jpg") no-repeat center center;
+}
+
+#chat-rooms div.coffee-room {
+  /* Photo by <a href="https://unsplash.com/@nate_dumlao?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nathan Dumlao</a> on <a href="https://unsplash.com/s/photos/coffee-and-art?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
+  background: url("/assets/images/coffee-card.jpg") no-repeat center center;
+}
+
+#chat-rooms div.more-room {
+  /* Photo from Pexels https://www.pexels.com/photo/landmark-lights-building-architecture-63328/ */
+  background: url("/assets/images/more-card.jpg") no-repeat center center;
+}
 
 /* Footer */
 
