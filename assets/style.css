@@ -12,9 +12,10 @@ body {
 /* Hero Image */
 
 #hero-image {
+  /* Photo by Sharon McCutcheon from Pexels */
   background: url("/assets/images/hero-image.jpg") no-repeat center center;
   background-size: cover;
-  height: 600px;
+  height: 500px;
   width: 100%;
   z-index: -2;
   opacity: 0.8;
@@ -58,13 +59,26 @@ body {
 
 /* Chat Rooms */
 
-
-.chat-rooms {
-  max-width: 25%;
+#chat-rooms {
+  width: 100%;
 }
 
-.cards-inline {
-  display: inline;
+/* Credit Inspiration - Code Institute Love Running Project */
+
+#chat-rooms div.card {
+  width: 20%;
+  height: 350px;
+  float: left;
+  text-align: center;
+  border: 2px solid white;
+  box-sizing: border-box;
+  flex-direction: unset;
+  background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
+}
+
+#chat-rooms img {
+  width: 100%;
+  opacity: 0.85;
 }
 
 
@@ -144,6 +158,25 @@ footer i {
 
 /*about page*/
 
+/*Code modified from W3 schools*/
+div.transbox {
+  background-color: #ffffff;
+  opacity: 0.7;
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+/*End of code from W3 schools*/
+ 
+@media only screen and (max-width: 425px) {
+.background-image {
+background-image: url(assets/images/about-background-mobile.jpg) center no-repeat;
+    }
+}
+
  #about-header {
      text-align: center;
      padding: 30px;
@@ -163,5 +196,3 @@ footer i {
      padding: 50px;
 
  }
-
- 

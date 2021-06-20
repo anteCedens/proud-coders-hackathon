@@ -17,7 +17,7 @@ View deployed site here <insert link>
 ## User Stories
 
 * As a user I want to find music, art and literature created by people who are LGBTQ+.
-* As a user I want to to sign-up to chat rooms to discuss, explore and learn with other people about different art produced by LGBTQ+ people.
+* As a user I want to sign-up to chat rooms to discuss, explore and learn with other people about different art produced by LGBTQ+ people.
 * As a user I want to see an array of images and content showcasing different LGBTQ+ artists.
 
 ## UX Design
@@ -28,25 +28,33 @@ The site allows users to look at different art types showcased and sign-up to ch
 
 ### Scope
 This site contains the following sections:
-* Home page- 
+* Home page- introduction and chat room carousel
 * About page- content about the site
 * Gallery page- contains media content displaying different art forms, including image gallery and carousel
 * Chat room page- users can log in to different chat rooms
-* Sign-up/ Log in form- 
+* Sign-up/ Log in form- users can sign up for the chat rooms or log in to an existing account
 
 ### Structure
 
-**Insert content**
+* Banner- Pride flag banner above navbar
+* Navbar- 
+* Footer- contains social media links
+* Home page- section 1: introduction; section 2: chat room carousel
+* About page- section 1: title and mission statement; section 2: three text blocks with content about site
+* Gallery page- section 1: embedded video content; section 2: carousel of images of different books; section 3: masonry gallery of art images
+* Sign up/ Log in form- available through navbar or chat room carousel
+
 
 ### Skeleton
 The initial wireframes were produced using [Balsamiq](https://balsamiq.com/).
 
-The wireframes can be viewed [here](https://github.com/anteCedens/proud-coders-hackathon/blob/master/assets/images/wireframes/wireframes.png).
+The wireframes can be viewed <insert wireframes>.
 
 ### Surface
-* Colour- **insert content**
-* Typography- **insert content**
-* 
+* **Colour**- With the concept of diversity and the Pride flag taking a central role. It was decided that a colourful, vibrant site would best represent the site's goals. 
+
+* **Typography**- **insert content**
+* **Images**- Throughout the site images have been used to showcase different artist's work. Images have also been used as backgrounds on the Home and About pages. 
 
 ## Technologies
 
@@ -58,3 +66,31 @@ The wireframes can be viewed [here](https://github.com/anteCedens/proud-coders-h
 ### Frameworks/ Libraries
 * [Balsamiq](https://balsamiq.com/) used for the wireframes.
 * [Bootstrap](https://getbootstrap.com/) used for styling and responsiveness.
+
+## Credits
+
+### Content
+
+- The __About__ page was sourced from []().
+
+### Media
+The photos used in this site were obtained from [Pexels](https://www.pexels.com/search/ice%20cream/?orientation=portrait) and [Unsplash](https://unsplash.com/). Both of these sites are completely copyright-free. Below are all the photographers whose work are featured in this website:
+
+- #### Unsplash
+
+    - [Tabitha Turner](https://unsplash.com/photos/uDOWXL_Jhqg)
+    - [Akram Huseyn](https://unsplash.com/photos/HGta5CK1rQw)
+    - [Prateek Katyal](https://unsplash.com/photos/KNfj7yDVMF0)
+
+- #### Pexels
+
+    - [Tyler Nix](https://www.pexels.com/photo/cappuccino-in-white-ceramic-cup-on-white-ceramic-saucer-2396220/)
+    - [Pexels](https://www.pexels.com/photo/landmark-lights-building-architecture-63328/)
+    - [Sharon McCutcheon](https://www.pexels.com/photo/close-up-photo-of-rainbow-colors-4219312/)
+
+### Code
+
+  - [Bootstrap](https://getbootstrap.com/docs/4.0/components/card/) for creating the Chat Room cards
+  - [Code Institute Love Running Project](https://github.com/Code-Institute-Org/love-running-2.0) for styling the Chat Rooms
+  - [FelixRilling](https://codepen.io/FelixRilling/pen/qzfoc) for Neon Glow
+
