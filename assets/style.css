@@ -72,11 +72,40 @@ body {
   opacity: 0.85;
 }
 
+/* Media Queries */
+
+@media screen and (max-width: 768px ) {
+  #chat-rooms div.card {
+    width: 50%;
+    height: 480px;
+    padding: 0;
+  }
+
+  #chat-rooms div.more-card {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  #chat-rooms img {
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 576px ) {
+  #chat-rooms div.card {
+    width: 100%;
+    clear: both;
+    height: 550px;
+    padding: 0;
+  }
+}
 
 /* Footer */
 
 footer {
     background-color: linear-gradient(rgba(0, 0, 0, 0, 0));
+    clear: both;
+    padding-top: 2%;
 }
 
 footer i {
@@ -147,7 +176,13 @@ footer .social-networks {
   }
   /* ------- */
 
-/*about page*/
+  @media screen and (max-width: 1393px ) {
+  footer {
+    padding-top: 5%;
+  }
+}
+
+/*About Page*/
 
 /*Code modified from W3 schools*/
 div.transbox {
