@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barrio&display=swap');
+
 
 body {
     background-color: black;
@@ -23,10 +26,15 @@ body {
 
 /* Navbar */
 
+.navbar-brand {
+  font-family: 'Barrio', cursive;
+  font-size: 2.25rem;
+}
+
 .pride-nav {
     padding-top: 0;
     padding-bottom: 0;
-    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
+    background-color: linear-gradient(rgba(0, 0, 0, 0, 0));
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -35,27 +43,10 @@ body {
 
 .pride-link{
     width: 96px;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight: bolder;
+    font-size: 1.5rem
 }
-
-/* .red-bg {
-    background-color: #c80000;
-}
-
-.orange-bg {
-    background-color: #f39201;
-}
-.yellow-bg {
-    background-color: #feed00;
-}
-.green-bg {
-    background-color: #37a72f;
-}
-.blue-bg {
-    background-color: #1d9ed6;
-}
-.purple-bg {
-    background-color: #651d83;
-} */
 
 /* Chat Rooms */
 
@@ -81,6 +72,7 @@ body {
   opacity: 0.85;
 }
 
+
 /* Footer */
 
 footer {
@@ -100,9 +92,9 @@ footer .social-networks {
 }
 
  /* Code Credit https://codepen.io/FelixRilling/pen/qzfoc for Neon Glow */
-footer i {
+ footer i,
+ .pride-link:hover {
     color: #fff;
-    font-family: Monoton;
     -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
     -moz-animation: neon1 1.5s ease-in-out infinite alternate;
     animation: neon1 1.5s ease-in-out infinite alternate;
@@ -203,6 +195,9 @@ background-image: url(assets/images/about-background-mobile.jpg) center no-repea
  #mission-statement {
      text-align: center;
      padding: 25px;
+     margin: 0 250px;
+    box-shadow: 0 20px 22px 0 rgb(247 89 83 / 20%), 0 15px 35px 0 rgb(247 89 83 / 19%);
+    border-radius: 7px;
  }
 
  #mission-statement h2 {
@@ -213,3 +208,112 @@ background-image: url(assets/images/about-background-mobile.jpg) center no-repea
      padding: 50px;
 
  }
+
+
+ /* Masonry Styling Start */
+
+/* Column count of 1 for small screen sizes */
+#masonry-container {
+  column-count: 1;
+  column-gap: 1rem;
+}
+
+.masonry-item {
+  width: 100%;
+  margin: 0 0 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Description */
+.masonry-item::before {
+  content: attr(data-description);
+  position: absolute;
+  width: 90%;
+  left: 50%;
+  bottom: -5rem;
+  color: #fff;
+  transform: translateX(-50%);
+  z-index: 2;
+  opacity: 0;
+  transition: bottom 500ms ease-in-out, opacity 1s ease-in-out;
+}
+
+/* Description hover */
+.masonry-item:hover::before {
+  opacity: 1;
+  bottom: 1rem;
+}
+
+/* Overlay slide */
+.masonry-item::after {
+  content: '';
+  position: absolute;
+  height: 5rem;
+  width: 100%;
+  left: 0;
+  bottom: -5rem;
+  background-color: rgba(0, 0, 0, 0.9);
+  transition: bottom 500ms ease-in-out;
+}
+
+/* Overlay slide hover */
+.masonry-item:hover::after {
+  bottom: 0;
+}
+
+.masonry-image {
+  width: 100%;
+}
+
+/* Column count of 2 for medium screen sizes */
+@media (min-width: 768px) {
+  #masonry-container {
+    column-count: 2;
+  }
+}
+
+/* Column count of 3 for large screen sizes */
+@media (min-width: 992px) {
+  #masonry-container {
+    column-count: 3;
+  }
+}
+
+/* Column count of 4 for x-large screen sizes and above */
+@media (min-width: 1200px) {
+  #masonry-container {
+    column-count: 4;
+  }
+}
+
+/* Masonry Styling End */
+
+
+/* START: Back-to-top button styling 
+Tweak of the main idea from https://www.w3schools.com/howto/howto_js_scroll_to_top.asp*/
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background-color: hsl(0, 0%, 29%);
+  border: solid 1px #fff;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+  line-height: 1;
+}
+
+#myBtn:hover {
+  border-color: #b5b5b5;
+  color: #363636;
+}
+
+/* END: Back-to-top button styling */
