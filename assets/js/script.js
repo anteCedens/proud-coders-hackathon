@@ -24,22 +24,17 @@ function topFunction() {
 
 
 // sign up form
-var signup = document.getElementById("pride-signup")
 
-var signupBtn = document.getElementById("pride-btn")
-
-var closeSignup = document.getElementById("close-btn")
-
-
-// When the user clicks the button, open the sign up form
-signupBtn.onclick = function() {
-  signup.style.display = "block";
-}
-
+$(function() {
+ // When the user clicks the button, open the sign up form
+    $(".pride-btn").click(function(){
+        $("#pride-signup").show();
+    });
 // When the user clicks on the close button the sign up form, close it
-closeSignup.onclick = function() {
-    signup.style.display = "none";
-}
+    $("#close-btn").click(function(){
+        $("#pride-signup").hide();
+    });
+})
 
 
 // When the user clicks anywhere outside of the sign up form, close it (no working now)
