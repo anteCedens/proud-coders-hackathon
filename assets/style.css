@@ -169,6 +169,24 @@ div.transbox p {
   color: #000000;
 }
 /*End of code from W3 schools*/
+
+/* signup-form */
+
+.signup-form {
+    display: none;
+    color: white;
+    position: fixed; /* Stay in place */
+    z-index: 99; /* Sit on top */
+    left: 40%;
+    top: 20%;
+    width: 400px; /* Full width */
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.4);
+    
+}
+
+
+
  
 @media only screen and (max-width: 425px) {
 .background-image {
