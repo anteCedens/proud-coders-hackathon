@@ -72,6 +72,11 @@ body {
   opacity: 0.85;
 }
 
+#chat-rooms i {
+  padding: 2%;
+  font-size: 1.5rem;
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 768px ) {
