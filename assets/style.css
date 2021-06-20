@@ -244,6 +244,9 @@ background-image: url(assets/images/about-background-mobile.jpg) center no-repea
 
  }
 
+ h1, h2 {
+     font-family: 'Gloria Hallelujah', cursive ;
+ }
 
  /* Masonry Styling Start */
 
