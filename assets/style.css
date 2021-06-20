@@ -192,7 +192,87 @@ background-image: url(assets/images/about-background-mobile.jpg) center no-repea
  }
 
 
- /* START: Back-to-top button styling 
+ /* Masonry Styling Start */
+
+/* Column count of 1 for small screen sizes */
+#masonry-container {
+  column-count: 1;
+  column-gap: 1rem;
+}
+
+.masonry-item {
+  width: 100%;
+  margin: 0 0 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Description */
+.masonry-item::before {
+  content: attr(data-description);
+  position: absolute;
+  width: 90%;
+  left: 50%;
+  bottom: -5rem;
+  color: #fff;
+  transform: translateX(-50%);
+  z-index: 2;
+  opacity: 0;
+  transition: bottom 500ms ease-in-out, opacity 1s ease-in-out;
+}
+
+/* Description hover */
+.masonry-item:hover::before {
+  opacity: 1;
+  bottom: 1rem;
+}
+
+/* Overlay slide */
+.masonry-item::after {
+  content: '';
+  position: absolute;
+  height: 5rem;
+  width: 100%;
+  left: 0;
+  bottom: -5rem;
+  background-color: rgba(0, 0, 0, 0.9);
+  transition: bottom 500ms ease-in-out;
+}
+
+/* Overlay slide hover */
+.masonry-item:hover::after {
+  bottom: 0;
+}
+
+.masonry-image {
+  width: 100%;
+}
+
+/* Column count of 2 for medium screen sizes */
+@media (min-width: 768px) {
+  #masonry-container {
+    column-count: 2;
+  }
+}
+
+/* Column count of 3 for large screen sizes */
+@media (min-width: 992px) {
+  #masonry-container {
+    column-count: 3;
+  }
+}
+
+/* Column count of 4 for x-large screen sizes and above */
+@media (min-width: 1200px) {
+  #masonry-container {
+    column-count: 4;
+  }
+}
+
+/* Masonry Styling End */
+
+
+/* START: Back-to-top button styling 
 Tweak of the main idea from https://www.w3schools.com/howto/howto_js_scroll_to_top.asp*/
 
 #myBtn {
