@@ -13,10 +13,11 @@
   overflow: hidden;
 }
 
+/* Description */
 .masonry-item::before {
   content: attr(data-description);
   position: absolute;
-  width: 80%;
+  width: 90%;
   left: 50%;
   bottom: -5rem;
   color: #fff;
@@ -26,11 +27,13 @@
   transition: bottom 500ms ease-in-out, opacity 1s ease-in-out;
 }
 
+/* Description hover */
 .masonry-item:hover::before {
   opacity: 1;
   bottom: 1rem;
 }
 
+/* Overlay slide */
 .masonry-item::after {
   content: '';
   position: absolute;
@@ -42,6 +45,7 @@
   transition: bottom 500ms ease-in-out;
 }
 
+/* Overlay slide hover */
 .masonry-item:hover::after {
   bottom: 0;
 }
