@@ -69,5 +69,28 @@ The wireframes can be viewed <insert wireframes>.
 
 ## Credits
 
-### Media 
+### Content
+
+- The __About__ page was sourced from []().
+
+### Media
+The photos used in this site were obtained from [Pexels](https://www.pexels.com/search/ice%20cream/?orientation=portrait) and [Unsplash](https://unsplash.com/). Both of these sites are completely copyright-free. Below are all the photographers whose work are featured in this website:
+
+- #### Unsplash
+
+    - [Tabitha Turner](https://unsplash.com/photos/uDOWXL_Jhqg)
+    - [Akram Huseyn](https://unsplash.com/photos/HGta5CK1rQw)
+    - [Prateek Katyal](https://unsplash.com/photos/KNfj7yDVMF0)
+
+- #### Pexels
+
+    - [Tyler Nix](https://www.pexels.com/photo/cappuccino-in-white-ceramic-cup-on-white-ceramic-saucer-2396220/)
+    - [Pexels](https://www.pexels.com/photo/landmark-lights-building-architecture-63328/)
+    - [Sharon McCutcheon](https://www.pexels.com/photo/close-up-photo-of-rainbow-colors-4219312/)
+
+### Code
+
+  - [Bootstrap](https://getbootstrap.com/docs/4.0/components/card/) for creating the Chat Room cards
+  - [Code Institute Love Running Project](https://github.com/Code-Institute-Org/love-running-2.0) for styling the Chat Rooms
+  - [FelixRilling](https://codepen.io/FelixRilling/pen/qzfoc) for Neon Glow
 
