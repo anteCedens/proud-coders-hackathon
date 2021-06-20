@@ -186,6 +186,9 @@ background-image: url(assets/images/about-background-mobile.jpg) center no-repea
  #mission-statement {
      text-align: center;
      padding: 25px;
+     margin: 0 250px;
+    box-shadow: 0 20px 22px 0 rgb(247 89 83 / 20%), 0 15px 35px 0 rgb(247 89 83 / 19%);
+    border-radius: 7px;
  }
 
  #mission-statement h2 {
