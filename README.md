@@ -53,7 +53,8 @@ The wireframes can be viewed <insert wireframes>.
 ### Surface
 * Colour
 <br>
-With the concept of diversity and the Pride flag taking a central role, it was decided that a colourful, vibrant site would best represent the site's goals. 
+With the concept of diversity and the Pride flag taking a central role. It was decided that a colourful, vibrant site would best represent the site's goals. 
+
 * Typography- **insert content**
 * Images
 <br>
