@@ -49,6 +49,10 @@ body {
     color: #ff1177!important;
 }
 
+.pride-link:hover {
+  border-bottom: 2.5px solid #fff;
+}
+
 /* Chat Rooms */
 
 #chat-rooms {
