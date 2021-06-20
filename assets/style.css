@@ -26,6 +26,10 @@ body {
 
 /* Navbar */
 
+.navbar-brand {
+  font-family: 'Barrio', cursive;
+}
+
 .pride-nav {
     padding-top: 0;
     padding-bottom: 0;
