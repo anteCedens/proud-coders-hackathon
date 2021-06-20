@@ -16,7 +16,7 @@ body {
 
 #hero-image {
   /* Photo by Sharon McCutcheon from Pexels */
-  background: url("/assets/images/hero-image.jpg") no-repeat center center;
+  background: url("../assets/images/hero-image.jpg") no-repeat center center;
   background-size: cover;
   height: 500px;
   width: 100%;
