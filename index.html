@@ -47,6 +47,13 @@
         </div>
     </nav>
 
+    <!--Back-to-top button-->
+    <button class="button" onclick="topFunction()" id="myBtn">
+        <a>
+            <i class="fas fa-arrow-up"></i>
+        </a>
+    </button>
+
     <section>
         <div id="hero-image">
 
@@ -85,9 +92,9 @@
                 <h5 class="card-title"><i class="fas fa-book-open"></i> Literature Room</h5>
                 <p class="card-text">Join the Literature Room to discuss all types of literature created by LGBTQ+
                     authors.</p>
-                    <div class="d-grid gap-2 col-6 mx-auto container">
-                        <button class="btn btn-dark pride-btn" type="button">Sign Up</button>
-                    </div>
+                <div class="d-grid gap-2 col-6 mx-auto container">
+                    <button class="btn btn-dark pride-btn" type="button">Sign Up</button>
+                </div>
             </div>
         </div>
         <div class="card bg-dark text-white">
@@ -117,7 +124,8 @@
         <!-- Sign Up pop Up -->
 
         <div class=" row signup-form" id="pride-signup">
-            <button type="button" class="btn-close btn-close-white ms-1 mt-1" id="close-btn" aria-label="Close"></button>
+            <button type="button" class="btn-close btn-close-white ms-1 mt-1" id="close-btn"
+                aria-label="Close"></button>
             <div class="col-8 offset-2">
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Email Address</label>
