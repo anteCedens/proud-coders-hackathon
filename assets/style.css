@@ -63,6 +63,16 @@ body {
   padding-bottom: 10px;
 }
 
+/* Modal Button */
+
+.modal-btn {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: #ff1177!important;
+  border-color: #fff;
+}
+
 /* Chat Rooms */
 
 #chat-rooms {
@@ -98,6 +108,7 @@ h5 {
 #chat-rooms img {
   width: 100%;
   opacity: 0.75;
+  object-fit: cover;
 }
 
 #chat-rooms i {
@@ -152,6 +163,7 @@ footer li {
 footer .social-networks {
   text-align: center;
 }
+
 
 /* Code Credit https://codepen.io/FelixRilling/pen/qzfoc for Neon Glow */
 footer i,
