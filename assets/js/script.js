@@ -27,7 +27,7 @@ function topFunction() {
 
 $(function() {
  // When the user clicks the button, open the sign up form
-    $(".pride-btn").click(function(){
+    $(".pride-btn, .pride-link").click(function(){
         $("#pride-signup").show();
     });
 // When the user clicks on the close button the sign up form, close it
