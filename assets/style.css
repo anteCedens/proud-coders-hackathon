@@ -70,6 +70,11 @@ body {
 
 /* Credit Inspiration - Code Institute Love Running Project */
 
+h5 {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 1.5rem;
+}
+
 #chat-rooms div.card {
   width: 20%;
   height: 350px;
