@@ -298,20 +298,6 @@ div.transbox p {
   }
 }
 
-@media screen and (max-width: 768px) {
-  .signup-form {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    margin: auto;
-
-    width: 60%;
-    height: 60%;
-  }
-}
-
 .pride-btn:hover {
   transform: scale(1.2);
 }
