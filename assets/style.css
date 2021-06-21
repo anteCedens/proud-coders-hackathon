@@ -141,7 +141,7 @@ footer .social-networks {
   }
   
   footer i:hover {
-    color: #ff1177;
+    color: #ff1177!important;
     -webkit-animation: none;
     -moz-animation: none;
     animation: none;
