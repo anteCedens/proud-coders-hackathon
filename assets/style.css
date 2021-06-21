@@ -258,12 +258,6 @@ div.transbox p {
         0 0 70px #ff1177, 0 0 80px #ff1177, 0 0 100px #ff1177, 0 0 150px #ff1177;
 }
 
-
-.pride-btn {
-    background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
-    border: none;
-}
-
 .pride-btn:hover {
     transform: scale(1.2);
 }
