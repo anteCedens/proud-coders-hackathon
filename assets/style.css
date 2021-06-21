@@ -54,7 +54,7 @@ body {
   font-family: 'Gloria Hallelujah', cursive;
   font-size: 1.75rem;
   font-weight: bolder;
-  color: #ff1177!important;
+  color: #fff !important;
   position: absolute;
   bottom: 10%;
   display: flex;
@@ -94,17 +94,15 @@ h5 {
   border: 2px solid white;
   box-sizing: border-box;
   flex-direction: unset;
-  background: linear-gradient(
-    45deg,
-    red,
-    orange,
-    yellow,
-    green,
-    blue,
-    indigo,
-    violet,
-    red
-  );
+  background: linear-gradient(45deg,
+      red,
+      orange,
+      yellow,
+      green,
+      blue,
+      indigo,
+      violet,
+      red);
 }
 
 #chat-rooms img {
@@ -166,25 +164,25 @@ footer .social-networks {
   text-align: center;
 }
 
- /* Code Credit https://codepen.io/FelixRilling/pen/qzfoc for Neon Glow */
- footer i,
- .pride-btn:hover,
- .modal-btn:hover,
- .pride-link:hover,
- .active,
- #myBtn:hover {
-    color: #fff!important;
-    -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
-    -moz-animation: neon1 1.5s ease-in-out infinite alternate;
-    animation: neon1 1.5s ease-in-out infinite alternate;
-  }
-  
-  footer i:hover {
-    color: #ff1177!important;
-    -webkit-animation: none;
-    -moz-animation: none;
-    animation: none;
-  }
+
+/* Code Credit https://codepen.io/FelixRilling/pen/qzfoc for Neon Glow */
+footer i,
+.pride-btn:hover,
+.pride-link:hover,
+.active,
+#myBtn:hover {
+  color: #fff !important;
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate;
+}
+
+.pride-btn:hover {
+  color: #ff1177 !important;
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate;
+}
 
 footer i:hover {
   color: #ff1177 !important;
@@ -200,6 +198,7 @@ footer i:hover {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff1177,
       0 0 70px #ff1177, 0 0 80px #ff1177, 0 0 100px #ff1177, 0 0 150px #ff1177;
   }
+
   to {
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff1177,
       0 0 35px #ff1177, 0 0 40px #ff1177, 0 0 50px #ff1177, 0 0 75px #ff1177;
@@ -213,6 +212,7 @@ footer i:hover {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff1177,
       0 0 70px #ff1177, 0 0 80px #ff1177, 0 0 100px #ff1177, 0 0 150px #ff1177;
   }
+
   to {
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff1177,
       0 0 35px #ff1177, 0 0 40px #ff1177, 0 0 50px #ff1177, 0 0 75px #ff1177;
@@ -226,11 +226,13 @@ footer i:hover {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff1177,
       0 0 70px #ff1177, 0 0 80px #ff1177, 0 0 100px #ff1177, 0 0 150px #ff1177;
   }
+
   to {
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff1177,
       0 0 35px #ff1177, 0 0 40px #ff1177, 0 0 50px #ff1177, 0 0 75px #ff1177;
   }
 }
+
 /* ------- */
 
 @media screen and (max-width: 1393px) {
@@ -252,42 +254,43 @@ div.transbox p {
   font-weight: bold;
   color: #000000;
 }
+
 /*End of code from W3 schools*/
 
 /* signup-form */
 
 .signup-form {
-    display: none;
-    color: white;
-    position: fixed; /* Stay in place */
-    z-index: 9999; /* Sit on top */
-    left: 40%;
-    top: 20%;
-    width: 400px; /* Full width */
-    height: 450px;
-    background-color: rgba(0, 0, 0, 0.6);
-    border-radius: 15px;
-    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff1177,
-        0 0 70px #ff1177, 0 0 80px #ff1177, 0 0 100px #ff1177, 0 0 150px #ff1177;
+  display: none;
+  color: white;
+  position: fixed; /* Stay in place */
+  z-index: 9999; /* Sit on top */
+  left: 40%;
+  top: 20%;
+  width: 400px; /* Full width */
+  height: 450px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 15px;
+  box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff1177,
+    0 0 70px #ff1177, 0 0 80px #ff1177, 0 0 100px #ff1177, 0 0 150px #ff1177;
 }
 
 .pride-btn:hover {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
 
- #about-header {
-     text-align: center;
-     padding: 30px;
-     text-transform: uppercase;
- }
+#about-header {
+  text-align: center;
+  padding: 30px;
+  text-transform: uppercase;
+}
 
- #mission-statement {
-     text-align: center;
-     padding: 25px;
-     margin: 0 250px;
-    box-shadow: 0 20px 22px 0 rgb(247 89 83 / 20%), 0 15px 35px 0 rgb(247 89 83 / 19%);
-    border-radius: 7px;
- }
+#mission-statement {
+  text-align: center;
+  padding: 25px;
+  margin: 0 250px;
+  box-shadow: 0 20px 22px 0 rgb(247 89 83 / 20%), 0 15px 35px 0 rgb(247 89 83 / 19%);
+  border-radius: 7px;
+}
 
 #about-header {
   text-align: center;
@@ -356,15 +359,13 @@ ul a {
   font-weight: bold;
   line-height: 5rem;
   letter-spacing: 4px;
-  background: linear-gradient(
-    90deg,
-    rgb(252, 52, 52) 0%,
-    rgb(233, 156, 55) 20%,
-    rgb(231, 235, 36) 40%,
-    rgb(22, 184, 30) 60%,
-    rgb(45, 121, 219) 80%,
-    rgb(179, 11, 151) 100%
-  );
+  background: linear-gradient(90deg,
+      rgb(252, 52, 52) 0%,
+      rgb(233, 156, 55) 20%,
+      rgb(231, 235, 36) 40%,
+      rgb(22, 184, 30) 60%,
+      rgb(45, 121, 219) 80%,
+      rgb(179, 11, 151) 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
