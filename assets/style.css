@@ -69,6 +69,10 @@ body {
   padding-bottom: 10px;
 }
 
+button.btn.pride-link {
+  margin-left: 0;
+}
+
 /* Modal Button */
 
 .modal-btn {
