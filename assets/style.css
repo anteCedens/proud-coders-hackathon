@@ -30,6 +30,12 @@ body {
   text-shadow: 2px 2px 4px #000000, 4px 4px 28px #ff00ff;
 }
 
+@media screen and (max-width: 450px) {
+  .navbar-brand {
+    font-size: 1.6rem;
+  }
+}
+
 .pride-nav {
   padding-top: 0;
   padding-bottom: 0;
