@@ -280,6 +280,20 @@ div.transbox p {
     0 0 70px #ff1177, 0 0 80px #ff1177, 0 0 100px #ff1177, 0 0 150px #ff1177;
 }
 
+@media screen and (max-width: 768px) {
+  .signup-form {
+    position: absolute;
+    left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: auto;
+
+  width: 100%;
+  height: 90%;
+  }
+}
+
 .pride-btn:hover {
   transform: scale(1.2);
 }
