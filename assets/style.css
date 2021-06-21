@@ -358,7 +358,7 @@ div.transbox p {
 
 
 /* START: Back-to-top button styling 
-Tweak of the main idea from https://www.w3schools.com/howto/howto_js_scroll_to_top.asp*/
+Tweak of the main idea from https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
 
 #myBtn {
   display: none;
@@ -370,8 +370,8 @@ Tweak of the main idea from https://www.w3schools.com/howto/howto_js_scroll_to_t
   border: none;
   outline: none;
   color: #fff;
-  background-color: hsl(0, 0%, 29%);
-  border: solid 1px #fff;
+  background-color: #ff1177;
+  border: solid 2px #fff;
   cursor: pointer;
   padding: 15px;
   border-radius: 50%;
