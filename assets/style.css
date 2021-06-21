@@ -48,8 +48,18 @@ body {
   margin: 0 0.75rem;
 }
 
-.pride-link:hover {
-  border-bottom: 1.5px solid #fff;
+/* Sign Up Button */
+
+.pride-btn {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 1.25rem;
+  color: #ff1177!important;
+  position: absolute;
+  bottom: 10%;
+  display: flex;
+  justify-content: center;
+  border-color: #fff;
+  padding-bottom: 10px;
 }
 
 /* Chat Rooms */
@@ -83,7 +93,7 @@ body {
 
 #chat-rooms img {
   width: 100%;
-  opacity: 0.85;
+  opacity: 0.75;
 }
 
 #chat-rooms i {
@@ -139,16 +149,24 @@ footer .social-networks {
   text-align: center;
 }
 
-/* Code Credit https://codepen.io/FelixRilling/pen/qzfoc for Neon Glow */
-footer i,
-.pride-link:hover,
-.active,
-#myBtn:hover {
-  color: #fff !important;
-  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
-  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
-  animation: neon1 1.5s ease-in-out infinite alternate;
-}
+ /* Code Credit https://codepen.io/FelixRilling/pen/qzfoc for Neon Glow */
+ footer i,
+ .pride-btn:hover,
+ .pride-link:hover,
+ .active,
+ #myBtn:hover {
+    color: #fff!important;
+    -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+    animation: neon1 1.5s ease-in-out infinite alternate;
+  }
+  
+  footer i:hover {
+    color: #ff1177!important;
+    -webkit-animation: none;
+    -moz-animation: none;
+    animation: none;
+  }
 
 footer i:hover {
   color: #ff1177 !important;
