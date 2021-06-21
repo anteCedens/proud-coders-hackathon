@@ -1,15 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Barrio&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barrio&display=swap");
 
 body {
-    background-color: black;
+  background-color: black;
 }
 
-
 .banner {
-    width: 100%;
-    height: 70px;
+  width: 100%;
+  height: 70px;
 }
 
 /* Hero Image */
@@ -27,27 +25,27 @@ body {
 /* Navbar */
 
 .navbar-brand {
-  font-family: 'Barrio', cursive;
+  font-family: "Barrio", cursive;
   font-size: 2.25rem;
   text-shadow: 2px 2px 4px #000000, 4px 4px 28px #ff00ff;
 }
 
 .pride-nav {
-    padding-top: 0;
-    padding-bottom: 0;
-    background-color: linear-gradient(rgba(0, 0, 0, 0, 0));
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: linear-gradient(rgba(0, 0, 0, 0, 0));
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: white;
+  color: white;
 }
 
-.pride-link{
-    font-family: 'Gloria Hallelujah', cursive;
-    font-weight: bolder;
-    font-size: 1.5rem;
-    color: #ff1177!important;
-    margin: 0 0.75rem;
+.pride-link {
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  color: #ff1177 !important;
+  margin: 0 0.75rem;
 }
 
 /* Sign Up Button */
@@ -80,7 +78,17 @@ body {
   border: 2px solid white;
   box-sizing: border-box;
   flex-direction: unset;
-  background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
+  background: linear-gradient(
+    45deg,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet,
+    red
+  );
 }
 
 #chat-rooms img {
@@ -95,7 +103,7 @@ body {
 
 /* Media Queries */
 
-@media screen and (max-width: 768px ) {
+@media screen and (max-width: 768px) {
   #chat-rooms div.card {
     width: 50%;
     height: 480px;
@@ -112,7 +120,7 @@ body {
   }
 }
 
-@media screen and (max-width: 576px ) {
+@media screen and (max-width: 576px) {
   #chat-rooms div.card {
     width: 100%;
     clear: both;
@@ -124,21 +132,21 @@ body {
 /* Footer */
 
 footer {
-    background-color: linear-gradient(rgba(0, 0, 0, 0, 0));
-    clear: both;
-    padding-top: 2%;
+  background-color: linear-gradient(rgba(0, 0, 0, 0, 0));
+  clear: both;
+  padding-top: 2%;
 }
 
 footer i {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 footer li {
-    padding: 2% 5% 2%;
+  padding: 2% 5% 2%;
 }
 
 footer .social-networks {
-    text-align: center;
+  text-align: center;
 }
 
  /* Code Credit https://codepen.io/FelixRilling/pen/qzfoc for Neon Glow */
@@ -160,52 +168,58 @@ footer .social-networks {
     animation: none;
   }
 
-  /*glow for webkit*/
+footer i:hover {
+  color: #ff1177 !important;
+  -webkit-animation: none;
+  -moz-animation: none;
+  animation: none;
+}
+
+/*glow for webkit*/
 
 @-webkit-keyframes neon1 {
-    from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff1177,
-        0 0 70px #ff1177, 0 0 80px #ff1177, 0 0 100px #ff1177, 0 0 150px #ff1177;
-    }
-    to {
-      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff1177,
-        0 0 35px #ff1177, 0 0 40px #ff1177, 0 0 50px #ff1177, 0 0 75px #ff1177;
-    }
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff1177,
+      0 0 70px #ff1177, 0 0 80px #ff1177, 0 0 100px #ff1177, 0 0 150px #ff1177;
   }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff1177,
+      0 0 35px #ff1177, 0 0 40px #ff1177, 0 0 50px #ff1177, 0 0 75px #ff1177;
+  }
+}
 
-  /*glow for mozilla*/
+/*glow for mozilla*/
 
 @-moz-keyframes neon1 {
-    from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff1177,
-        0 0 70px #ff1177, 0 0 80px #ff1177, 0 0 100px #ff1177, 0 0 150px #ff1177;
-    }
-    to {
-      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff1177,
-        0 0 35px #ff1177, 0 0 40px #ff1177, 0 0 50px #ff1177, 0 0 75px #ff1177;
-    }
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff1177,
+      0 0 70px #ff1177, 0 0 80px #ff1177, 0 0 100px #ff1177, 0 0 150px #ff1177;
   }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff1177,
+      0 0 35px #ff1177, 0 0 40px #ff1177, 0 0 50px #ff1177, 0 0 75px #ff1177;
+  }
+}
 
-  /*glow*/
+/*glow*/
 
 @keyframes neon1 {
-    from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff1177,
-        0 0 70px #ff1177, 0 0 80px #ff1177, 0 0 100px #ff1177, 0 0 150px #ff1177;
-    }
-    to {
-      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff1177,
-        0 0 35px #ff1177, 0 0 40px #ff1177, 0 0 50px #ff1177, 0 0 75px #ff1177;
-    }
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff1177,
+      0 0 70px #ff1177, 0 0 80px #ff1177, 0 0 100px #ff1177, 0 0 150px #ff1177;
   }
-  /* ------- */
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff1177,
+      0 0 35px #ff1177, 0 0 40px #ff1177, 0 0 50px #ff1177, 0 0 75px #ff1177;
+  }
+}
+/* ------- */
 
-  @media screen and (max-width: 1393px ) {
+@media screen and (max-width: 1393px) {
   footer {
     padding-top: 5%;
   }
 }
-
 
 /*About Page*/
 
@@ -225,71 +239,99 @@ div.transbox p {
 /* signup-form */
 
 .signup-form {
-    display: none;
-    color: white;
-    position: fixed; /* Stay in place */
-    z-index: 99; /* Sit on top */
-    left: 40%;
-    top: 20%;
-    width: 400px; /* Full width */
-    height: 350px;
-    background-color: rgba(0, 0, 0, 0.4);
-    
+  display: none;
+  color: white;
+  position: fixed; /* Stay in place */
+  z-index: 99; /* Sit on top */
+  left: 40%;
+  top: 20%;
+  width: 400px; /* Full width */
+  height: 350px;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
- #about-header {
-     text-align: center;
-     padding: 30px;
-     text-transform: uppercase;
- }
+#about-header {
+  text-align: center;
+  padding: 30px;
+  text-transform: uppercase;
+}
 
- #mission-statement {
-     text-align: center;
-     padding: 25px;
-     margin: 0 250px;
-    box-shadow: 0 20px 22px 0 rgb(247 89 83 / 20%), 0 15px 35px 0 rgb(247 89 83 / 19%);
-    border-radius: 7px;
- }
+#mission-statement {
+  text-align: center;
+  padding: 25px;
+  margin: 0 250px;
+  box-shadow: 0 20px 22px 0 rgb(247 89 83 / 20%),
+    0 15px 35px 0 rgb(247 89 83 / 19%);
+  border-radius: 7px;
+}
 
- #mission-statement h2 {
-     text-transform: uppercase;
- }
+#mission-statement h2 {
+  text-transform: uppercase;
+}
 
-@media only screen and (max-width: 425px ) {
+@media only screen and (max-width: 425px) {
   #mission-statement {
     text-align: center;
-     padding: 25px;
-     margin: 0 25px;
-    box-shadow: 0 20px 22px 0 rgb(247 89 83 / 20%), 0 15px 35px 0 rgb(247 89 83 / 19%);
+    padding: 25px;
+    margin: 0 25px;
+    box-shadow: 0 20px 22px 0 rgb(247 89 83 / 20%),
+      0 15px 35px 0 rgb(247 89 83 / 19%);
     border-radius: 7px;
   }
 }
 
-@media only screen and (min-width: 426px) and (max-width: 768px ) {
+@media only screen and (min-width: 426px) and (max-width: 768px) {
   #mission-statement {
     text-align: center;
-     padding: 25px;
-     margin: 0 100px;
-    box-shadow: 0 20px 22px 0 rgb(247 89 83 / 20%), 0 15px 35px 0 rgb(247 89 83 / 19%);
+    padding: 25px;
+    margin: 0 100px;
+    box-shadow: 0 20px 22px 0 rgb(247 89 83 / 20%),
+      0 15px 35px 0 rgb(247 89 83 / 19%);
     border-radius: 7px;
   }
 }
 
- .about-content {
-     padding: 50px;
+.about-content {
+  padding: 50px;
+}
 
- }
+h1,
+h2 {
+  font-family: "Gloria Hallelujah", cursive;
+}
 
- h1, h2 {
-     font-family: 'Gloria Hallelujah', cursive ;
- }
+ul a {
+  color: #9c0d48f0;
+  text-decoration: underline;
+}
 
-  ul a {
-    color: #9c0d48f0;
-    text-decoration: underline;
-  }
+/* Gallery Styling */
 
- /* Masonry Styling Start */
+#gallery-header {
+  height: 20vh;
+}
+
+/* Credit - https://cssgradient.io/blog/css-gradient-text/ */
+#gallery-title {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 5rem;
+  letter-spacing: 4px;
+  background: linear-gradient(
+    90deg,
+    rgb(252, 52, 52) 0%,
+    rgb(233, 156, 55) 20%,
+    rgb(231, 235, 36) 40%,
+    rgb(22, 184, 30) 60%,
+    rgb(45, 121, 219) 80%,
+    rgb(179, 11, 151) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Masonry Styling Start */
 
 /* Column count of 1 for small screen sizes */
 #masonry-container {
@@ -310,11 +352,11 @@ div.transbox p {
   position: absolute;
   width: 90%;
   left: 50%;
-  bottom: -5rem;
+  bottom: 1rem;
   color: #fff;
   transform: translateX(-50%);
   z-index: 2;
-  opacity: 0;
+  opacity: 1;
   transition: bottom 500ms ease-in-out, opacity 1s ease-in-out;
 }
 
@@ -326,13 +368,13 @@ div.transbox p {
 
 /* Overlay slide */
 .masonry-item::after {
-  content: '';
+  content: "";
   position: absolute;
   height: 5rem;
   width: 100%;
   left: 0;
-  bottom: -5rem;
-  background-color: rgba(0, 0, 0, 0.9);
+  bottom: 0rem;
+  background-color: rgba(0, 0, 0, 0.8);
   transition: bottom 500ms ease-in-out;
 }
 
@@ -350,12 +392,30 @@ div.transbox p {
   #masonry-container {
     column-count: 2;
   }
+
+  .masonry-item::before {
+    bottom: 1rem;
+    opacity: 1;
+  }
+
+  .masonry-item::after {
+    bottom: 0rem;
+  }
 }
 
 /* Column count of 3 for large screen sizes */
 @media (min-width: 992px) {
   #masonry-container {
     column-count: 3;
+  }
+
+  .masonry-item::before {
+    bottom: -5rem;
+    opacity: 0;
+  }
+
+  .masonry-item::after {
+    bottom: -5rem;
   }
 }
 
@@ -367,7 +427,6 @@ div.transbox p {
 }
 
 /* Masonry Styling End */
-
 
 /* START: Back-to-top button styling 
 Tweak of the main idea from https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
