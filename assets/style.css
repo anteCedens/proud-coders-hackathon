@@ -134,7 +134,8 @@ footer .social-networks {
  /* Code Credit https://codepen.io/FelixRilling/pen/qzfoc for Neon Glow */
  footer i,
  .pride-link:hover,
- .active {
+ .active,
+ #myBtn:hover {
     color: #fff!important;
     -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
     -moz-animation: neon1 1.5s ease-in-out infinite alternate;
@@ -379,8 +380,7 @@ Tweak of the main idea from https://www.w3schools.com/howto/howto_js_scroll_to_t
 }
 
 #myBtn:hover {
-  border-color: #b5b5b5;
-  color: #363636;
+  border-color: #ff1177;
 }
 
 /* END: Back-to-top button styling */
